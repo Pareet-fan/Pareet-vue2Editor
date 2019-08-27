@@ -1,0 +1,22 @@
+{
+    "plugins": [
+        ["@babel/plugin-transform-runtime",{
+            "corejs": 2,
+            "helpers": true,
+            "regenerator": true,
+            "useESModules": false,
+        }],
+        [
+            "component",
+            {
+              "libraryName": "element-ui",
+              "styleLibraryName": "theme-chalk"
+            }
+        ],
+        ["import", {
+            "libraryName": "vant",
+            "libraryDirectory": "es",
+            "style": true
+        }]
+    ]
+}
